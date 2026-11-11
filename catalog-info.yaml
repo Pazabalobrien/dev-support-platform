@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-platform-service
+  description: My first service registered in Backstage
+  tags:
+    - platform
+    - devops
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guests
+  system: examples
